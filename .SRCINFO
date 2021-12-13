@@ -1,0 +1,17 @@
+pkgbase = acer-batter-wmi
+	pkgdesc = A kernel module for acer battery wmi (DKMS version)
+	pkgver = 0.1
+	pkgrel = 1
+	install = acer-battery-wmi.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = glibc
+	depends = dkms
+	source = MakeFile
+	source = dkms.conf
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = acer-batter-wmi
